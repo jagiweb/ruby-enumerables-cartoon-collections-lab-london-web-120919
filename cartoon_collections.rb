@@ -18,11 +18,11 @@ end
 
 def find_the_cheese(array)
   if array.include?("cheddar")
-    return array("cheddar")
+    return array.find("cheddar")
   elsif array.include?("gouda")
-    return array("gouda")
-  elsif array.include("camembert")
-    return array("camembert")
+    return array.find("gouda")
+  elsif array.include?("camembert")
+    return array.find("camembert")
   else
     nil
   end
