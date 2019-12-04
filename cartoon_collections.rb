@@ -32,4 +32,5 @@ def find_the_cheese(array)
   array.find do |cheese|
     cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
   end
+  nil
 end
