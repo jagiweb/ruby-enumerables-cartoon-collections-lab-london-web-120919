@@ -20,7 +20,7 @@ def find_the_cheese(array)
   if array.include?("cheddar")
     return "cheddar"
   elsif array.include?("gouda")
-    return array.find("gouda")
+    return "gouda"
   elsif array.include?("camembert")
     return array.find("camembert")
   else
